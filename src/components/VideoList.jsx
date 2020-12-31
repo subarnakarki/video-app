@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-const VideoList = (props) => {
+const VideoList = ({videos}) => {
     return (
         <div>
-            Video list
+            {videos.length}
         </div>
     )
 }
